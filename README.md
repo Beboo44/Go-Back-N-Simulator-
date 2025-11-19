@@ -7,6 +7,7 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
 
 ## 📌 Features
 
+
 - Full implementation of **Go-Back-N ARQ**
 - User-defined:
   - Window size
@@ -39,7 +40,8 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
 
 
 
-🔧_compilation_and_execution:
+## 🔧 Compilation and Execution
+
   compile: "g++ -std=c++17 -O2 -o gbn main.cpp"
   run: "./gbn"
   example_input:
@@ -55,13 +57,13 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
     Receiver: Frame 2 is lost. Send it again
     ===========================================
 
-📁_project_structure:
+## 📁 Project_Structure:
   - file: "main.cpp"
     description: "Go-Back-N implementation"
   - file: "README.md"
     description: "Documentation"
 
-🧩_concepts_covered:
+## 🧩 Concept_Covered:
   - "Sliding Window Protocols"
   - "Reliable Data Transfer"
   - "Sequence Number Wrapping (modulo arithmetic)"
@@ -69,7 +71,7 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
   - "Sender/Receiver synchronization"
   - "Error simulation"
 
-🚀_future_improvements:
+## 🚀 Future_Improvements
   - "Selective Repeat ARQ version"
   - "Timer + timeout support"
   - "GUI visualization"
