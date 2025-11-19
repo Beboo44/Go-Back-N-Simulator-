@@ -36,27 +36,6 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
   - ACK if correct
   - NAK if wrong or out-of-order
 
-### Error Simulation
-
-
-
-## 🔧 Compilation and Execution
-
-  compile: "g++ -std=c++17 -O2 -o gbn main.cpp"
-  run: "./gbn"
-  example_input:
-    - "Please, Enter the window size --> 4"
-    - "Please, Enter number of data frames --> 10"
-  example_output: |
-    Sending Window:
-    ===========================================
-    Sender   : Frame 0 is sent  Data_Sent: qwerty...
-    Sender   : Frame 1 is sent  Data_Sent: kjhgfd...
-    Sender   : Frame 2 is sent  Data_Sent: asdfgh...
-    !!!!! error has happened !!!!
-    Receiver: Frame 2 is lost. Send it again
-    ===========================================
-
 ## 📁 Project_Structure:
   - file: "main.cpp"
     description: "Go-Back-N implementation"
