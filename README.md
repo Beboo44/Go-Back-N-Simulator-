@@ -43,6 +43,7 @@ A 20% chance of sequence number corruption:
 if((rand()%100)<20){
     return rand()%MAX_SEQ;
 }
+```
 
 🔧_compilation_and_execution:
   compile: "g++ -std=c++17 -O2 -o gbn main.cpp"
