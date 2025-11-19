@@ -37,13 +37,7 @@ This project demonstrates how frames are sent, acknowledged, lost, or retransmit
 
 ### Error Simulation
 
-A 20% chance of sequence number corruption:
 
-```cpp
-if((rand()%100)<20){
-    return rand()%MAX_SEQ;
-}
-```
 
 🔧_compilation_and_execution:
   compile: "g++ -std=c++17 -O2 -o gbn main.cpp"
